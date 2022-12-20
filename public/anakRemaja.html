@@ -50,30 +50,31 @@
                     </h1>
                     <div class="grid gap-6 mb-6 md:grid-cols-3">
                         <div>
-                            <label for="nama_depan"
+                            <label for="nama_depan_anak"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Nama Depan
+                                Nama Depan Anak
                             </label>
-                            <input type="text" id="nama_depan" name="nama_depan"
+                            <input type="text" id="nama_depan_anak" name="nama_depan_anak"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Nama Depan" required>
+                                placeholder="Nama Depan Anak" required>
                         </div>
                         <div>
-                            <label for="nama_keluarga"
+                            <label for="nama_keluarga_anak"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                                 Nama Keluarga
                             </label>
-                            <input type="text" id="nama_keluarga" name="nama_keluarga"
+                            <input type="text" id="nama_keluarga_anak" name="nama_keluarga_anak"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Nama Keluarga" required>
+                                placeholder="Nama Keluarga Anak" required>
                         </div>
                         <div>
-                            <label for="panggilan" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Panggilan
+                            <label for="nama_panggilan_anak"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                                Nama Panggilan Anak
                             </label>
-                            <input type="text" id="panggilan" name="panggilan"
+                            <input type="text" id="nama_panggilan_anak" name="nama_panggilan_anak"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Penggilan" required>
+                                placeholder="Nama Panggilan Anak" required>
                         </div>
                         <div>
                             <label for="tempat_lahir"
@@ -131,62 +132,29 @@
                                 placeholder="Agama" required>
                         </div>
                         <div>
-                            <label for="status" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Status
+                            <label for="nama_ayah" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                                Nama Ayah
                             </label>
-                            <select id="status" name="status"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                <option selected>Pilih Status</option>
-                                <option value="Menikah">Menikah</option>
-                                <option value="Belum Menikah">Belum Menikah</option>
-                                <option value="Janda/Duda">Janda/Duda</option>
-                            </select>
+                            <input type="text" id="nama_ayah" name="nama_ayah"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Nama Ayah" required>
                         </div>
                         <div>
-                            <label for="nama_pasangan"
+                            <label for="nama_ibu" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                                Nama Ibu
+                            </label>
+                            <input type="text" id="nama_ibu" name="nama_ibu"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Nama Ibu" required>
+                        </div>
+                        <div>
+                            <label for="NamaUsiaKakakAdik"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Nama Pasangan Anda
+                                Nama dan usia Kakak dan/atau Adik
                             </label>
-                            <input type="text" id="nama_pasangan" name="nama_pasangan"
+                            <input type="text" id="namadanusiakakakadik" name="namadanusiakakakadik"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Nama Pasangan Anda" required>
-                        </div>
-                        <div>
-                            <label for="relasi_dengan_pasangan"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Bagaimana Relasi Dengan Pasangan? </label>
-                            <select id="relasi_dengan_pasangan" name="relasi_dengan_pasangan"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                <option selected>Relasi Dengan Pasangan</option>
-                                <option value="Baik">Baik</option>
-                                <option value="Biasa">Biasa</option>
-                                <option value="Buruk">Buruk</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="jumlah_anak"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Jumlah Anak
-                            </label>
-                            <input type="number" id="jumlah_anak" name="jumlah_anak"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Jumlah Anak" required>
-                        </div>
-                        <div>
-                            <label for="nama_anak" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Nama Anak
-                            </label>
-                            <input type="text" id="nama_anak" name="nama_anak"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Nama Anak" required>
-                        </div>
-                        <div>
-                            <label for="usia_anak" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Usia Anak-Anak
-                            </label>
-                            <input type="number" id="usia_anak" name="usia_anak"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Usia Anak-Anak" required>
+                                placeholder="Nama dan usia Kakak dan/atau Adik" required>
                         </div>
                     </div>
                     <div>
@@ -202,7 +170,7 @@
                     <h1 class="py-10 text-lg font-bold text-center text-black md:text-5xl lg:text-3xl dark:text-white">
                         Informasi Kualifikasi
                     </h1>
-                    <div class="grid gap-6 mb-6 md:grid-cols-2">
+                    <div class="grid gap-6 mb-6 md:grid-cols-3">
                         <div>
                             <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                                 Bagaimana Anda tahu mengenai kami?
@@ -239,21 +207,21 @@
                                 Anda datang ke kami atas?
                             </label>
                             <div class="flex">
-                                <div class="flex items-center mr-4">
+                                <div class="flex items-center mr-2">
                                     <input id="niat-sendiri" type="checkbox" value="Niat Sendiri" name="select4"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                                     <label for="niat-sendiri"
                                         class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Niat Sendiri
                                     </label>
                                 </div>
-                                <div class="flex items-center mr-4">
+                                <div class="flex items-center mr-2">
                                     <input id="Permintaan" type="checkbox" value="Permintaan" name="select5"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                                     <label for="Permintaan"
                                         class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Permintaan
                                     </label>
                                 </div>
-                                <div class="flex items-center mr-4">
+                                <div class="flex items-center mr-2">
                                     <input id="Lainya" type="checkbox" value="Lainya" name="select6"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                                     <label for="Lainya"
@@ -267,41 +235,57 @@
                         </div>
                         <div>
                             <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Saat Anda masih anak-anak, bagaimana relasi dengan ayah?
+                                Pendidikan anak anda saat ini di sekolah?
                             </label>
-                            <div class="flex">
-                                <div class="flex items-center mr-4">
-                                    <input id="inline-radio" type="radio" value="Baik" name="radio_1"
+                            <div class="grid gap-3 mb-6 md:grid-cols-2">
+                                <div class="flex items-center mr-3">
+                                    <input id="inline-radio" type="radio" value="Belum Sekolah" name="radio_1"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                                     <label for="inline-radio"
                                         class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Baik
+                                        Belum Sekolah
                                     </label>
                                 </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="inline-2-radio" type="radio" value="Biasa" name="radio_1"
+                                <div class="flex items-center mr-3">
+                                    <input id="inline-2-radio" type="radio" value="KB/TK" name="radio_1"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                                     <label for="inline-2-radio"
                                         class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Biasa
+                                        KB/TK
                                     </label>
                                 </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="inline-3-radio" type="radio" value="Buruk" name="radio_1"
+                                <div class="flex items-center mr-3">
+                                    <input id="inline-3-radio" type="radio" value="SD" name="radio_1"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                                     <label for="inline-3-radio"
                                         class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Buruk
+                                        SD
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-3">
+                                    <input id="inline-3-radio" type="radio" value="SMP" name="radio_1"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-3-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        SMP
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-3">
+                                    <input id="inline-3-radio" type="radio" value="SMA/SMK" name="radio_1"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-3-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        SMA/SMK
                                     </label>
                                 </div>
                             </div>
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
+                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-1">
                                 pilih salah satu
                             </p>
                         </div>
                         <div>
                             <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Saat Anda masih anak-anak, bagaimana relasi dengan ibu?
+                                Bagaimana relasi anak dengan ayah?
                             </label>
                             <div class="flex">
                                 <div class="flex items-center mr-4">
@@ -333,31 +317,563 @@
                                 pilih salah satu
                             </p>
                         </div>
-                    </div>
-                    <label class="block mb-2 text-sm text-center font-medium text-gray-900 dark:text-white">
-                        Sebutkan 1 (satu) masalah / penyakit yang ingin Anda atasi melalui sesi hipnoterapi ini
-                    </label>
-                    <label for="deskripsi_masalah"
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi Masalah</label>
-                    <textarea id="deskripsi_masalah" rows="4" name="deskripsi_masalah"
-                        class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="Deskripsi Masalah"></textarea>
-
-                    <div class="grid gap-6 mb-6 md:grid-cols-3">
                         <div>
                             <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Apakah Anda yakin dan percaya bahwa Anda bisa sembuh dari masalah/penyakit ini?
+                                Bagaimana relasi anak dengan ibu?
                             </label>
                             <div class="flex">
                                 <div class="flex items-center mr-4">
-                                    <input id="Ya" type="radio" value="Ya" name="radio_3"
+                                    <input id="inline-7-radio" type="radio" value="Baik" name="radio_3"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-7-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Baik
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-8-radio" type="radio" value="Biasa" name="radio_3"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-8-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Biasa
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-9-radio" type="radio" value="Buruk" name="radio_3"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-9-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Buruk
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
+                                pilih salah satu
+                            </p>
+                        </div>
+                        <div>
+                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                                Bagaimana relasi anak dengan kakak/adik?
+                            </label>
+                            <div class="flex">
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-10-radio" type="radio" value="Baik" name="radio_4"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-10-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Baik
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-11-radio" type="radio" value="Biasa" name="radio_4"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-11-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Biasa
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-12-radio" type="radio" value="Buruk" name="radio_4"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-12-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Buruk
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
+                                pilih salah satu
+                            </p>
+                        </div>
+                    </div>
+                    <label class="block mb-2 text-sm text-center font-medium text-gray-900 dark:text-white">
+                        Masalah Apa Yang Ingin Diatasi?
+                    </label>
+                    <label for="deskripsi_1"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi Masalah</label>
+                    <textarea id="deskripsi_1" rows="4" name="deskripsi_1"
+                        class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Deskripsi Masalah Utama"></textarea>
+                    <div class="mb-4">
+                        <input type="text" id="input1" name="input1"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Sudah berapa lama masalah ini mengganggu anda atau anak anda?" required>
+                    </div>
+                    <div class="grid gap-6 mb-6 md:grid-cols-3">
+                        <div>
+                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                                Apakah saat ini anak anda sedang dalam penanganan dokter atau psikolog?
+                            </label>
+                            <div class="flex">
+                                <div class="flex items-center mr-4">
+                                    <input id="Ya" type="radio" value="Ya" name="radio_5"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                                     <label for="Ya" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                                         Ya
                                     </label>
                                 </div>
                                 <div class="flex items-center mr-4">
-                                    <input id="Tidak" type="radio" value="Tidak" name="radio_3"
+                                    <input id="Tidak" type="radio" value="Tidak" name="radio_5"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Tidak"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Tidak
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
+                                pilih salah satu
+                            </p>
+                        </div>
+                        <div class="">
+                            <textarea id="deskripsi_2" rows="4" name="deskripsi_2"
+                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Jika ya, dimana?"></textarea>
+                        </div>
+                        <div class="">
+                            <textarea id="deskripsi_3" rows="4" name="deskripsi_3"
+                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Nama Dokter/Psikolog/Psikiater"></textarea>
+                        </div>
+                    </div>
+
+                    <h1 class="py-10 text-lg font-bold text-center text-black md:text-5xl lg:text-3xl dark:text-white">
+                        Untuk Diisi Oleh Anak
+                    </h1>
+
+                    <div class="grid gap-6 mb-6 md:grid-cols-2">
+                        <div>
+                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                                Apa tempat favorit yang anda sukai?
+                            </label>
+                            <div class="grid gap-4 mb-6 md:grid-cols-2">
+                                <div class="flex items-center mr-2">
+                                    <input id="Taman" type="checkbox" value="Taman" name="select7"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Taman"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Taman
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Pegunungan" type="checkbox" value="Pegunungan" name="select8"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Pegunungan"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Pegunungan
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Sekolah" type="checkbox" value="Sekolah" name="select9"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Sekolah"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sekolah
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="TamanBermain" type="checkbox" value="Taman Bermain" name="select10"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="TamanBermain"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Taman Bermain
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Pantai" type="checkbox" value="Pantai" name="select11"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Pantai"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Pantai
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Danau" type="checkbox" value="Danau" name="select12"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Danau"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Danau
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Rumah" type="checkbox" value="Rumah" name="select13"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Rumah"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Rumah
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Lainya" type="checkbox" value="Lainya" name="select14"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Lainya"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Lainya
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
+                                pilih semua yang anda suka
+                            </p>
+                        </div>
+                        <div>
+                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                                Apa kegiatan/hobby yang anda sukai?
+                            </label>
+                            <div class="grid gap-4 mb-6 md:grid-cols-2">
+                                <div class="flex items-center mr-2">
+                                    <input id="MainHP/gadget" type="checkbox" value="Main HP/gadget" name="select15"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="MainHP/gadget"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Main HP/gadget
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="MenontonTv" type="checkbox" value="Menonton TV" name="select16"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="MenontonTv"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Menonton TV
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Menggambar-melukis" type="checkbox" value="Menggambar/melukis"
+                                        name="select17"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Menggambar-melukis"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Menggambar/melukis
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="BermainDenganTeman" type="checkbox" value="Bermain dengan teman"
+                                        name="select18"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="BermainDenganTeman"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Bermain dengan
+                                        teman
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Olahraga" type="checkbox" value="Olahraga" name="select19"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Olahraga"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Olahraga
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Menari" type="checkbox" value="Menari" name="select20"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Menari"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Menari
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="MainGame" type="checkbox" value="Main Game" name="select21"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="MainGame"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Main Game
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="MembacaBuku" type="checkbox" value="Membaca buku" name="select22"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="MembacaBuku"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Membaca buku
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="MendengarkanMusik" type="checkbox" value="Mendengarkan Musik"
+                                        name="select23"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="MendengarkanMusik"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Mendengarkan
+                                        Musik
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="HewanPeliharaan" type="checkbox"
+                                        value="Bermain dengan binatang peliharaan" name="select24"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="HewanPeliharaan"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Bermain dengan
+                                        binatang peliharaan
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="BermainAlatMusik" type="checkbox" value="Bermain alat musik"
+                                        name="select25"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="BermainAlatMusik"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Bermain alat
+                                        musik
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Lainnya" type="checkbox" value="Lainnya" name=" select25"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Lainnya"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Lainnya
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
+                                pilih semua yang anda suka
+                            </p>
+                        </div>
+                        <div>
+                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                                Apa hal yang paling mengganggu anda saat ini?
+                            </label>
+                            <div class="grid gap-4 mb-6 md:grid-cols-2">
+                                <div class="flex items-center mr-2">
+                                    <input id="Marah" type="checkbox" value="Marah" name="select26"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Marah"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Marah
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Cemas" type="checkbox" value="Cemas" name="select27"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Cemas"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Cemas
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Sedih" type="checkbox" value="Sedih" name="select28"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Sedih"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sedih
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Bosan" type="checkbox" value="Bosan" name="select29"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Bosan"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Bosan
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="TidakBisaFokus" type="checkbox" value="Tidak Bisa Fokus" name="select30"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="TidakBisaFokus"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Tidak Bisa
+                                        Fokus
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="KebiasaanBuruk" type="checkbox" value="Kebiasaan Buruk" name="select31"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="KebiasaanBuruk"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Kebiasaan
+                                        Buruk
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="PrestasiRendah" type="checkbox" value="Prestasi Rendah" name="select32"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="PrestasiRendah"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Prestasi
+                                        Rendah
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Kecewa" type="checkbox" value="Kecewa" name="select33"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Kecewa"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Kecewa
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Takut" type="checkbox" value="Takut" name="select34"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Takut"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Takut
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="SakitHati" type="checkbox" value="Sakit Hati" name="select35"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="SakitHati"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sakit Hati
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Kesepian" type="checkbox" value="Kesepian" name="select36"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Kesepian"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Kesepian
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Sakit" type="checkbox" value="Sakit" name="select37"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Sakit"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sakit
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="KecanduanAdiksi" type="checkbox" value="Kecanduan/Adiksi" name="select38"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="KecanduanAdiksi"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Kecanduan/Adiksi
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-2">
+                                    <input id="Lainnya" type="checkbox" value="Lainnya" name=" select39"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Lainnya"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Lainnya
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
+                                pilih semua yang anda rasakan
+                            </p>
+                        </div>
+                        <div class="">
+                            <textarea id="deskripsi_4" rows="13" name="deskripsi_4"
+                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Tolong jelaskan secara singkat pilihan Anda tentang apa yang mengganggu Anda"></textarea>
+                        </div>
+                    </div>
+                    <div class="">
+                        <textarea id="deskripsi_5" rows="4" name="deskripsi_5"
+                            class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Apa yang akan terjadi dalam hidup anda jika anda berhasil mengatasi masalah ini?"></textarea>
+                    </div>
+
+                    <h1 class="py-10 text-lg font-bold text-center text-black md:text-5xl lg:text-3xl dark:text-white">
+                        Untuk Diisi Oleh Orangtua
+                    </h1>
+
+                    <div class="grid gap-6 mb-6 md:grid-cols-2">
+                        <div>
+                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                                Siapa pengurus utama anak saat kecil?
+                            </label>
+                            <div class="grid gap-3 mb-6 md:grid-cols-2">
+                                <div class="flex items-center mr-4">
+                                    <input id="Ayah" type="radio" value="Ayah" name="radio_6"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Ayah" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Ayah
+                                    </label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="Ibu" type="radio" value="Ibu" name="radio_6"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Ibu" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Ibu
+                                    </label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="Kakek" type="radio" value="Kakek" name="radio_6"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Kakek"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Kakek
+                                    </label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="Nenek" type="radio" value="Nenek" name="radio_6"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Nenek"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Nenek
+                                    </label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="BebySitter" type="radio" value="Beby Sitter" name="radio_6"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="BebySitter"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Beby Sitter
+                                    </label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="Lainya" type="radio" value="Lainya" name="radio_6"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Lainya"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Lainya
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
+                                pilih semua yang sesuai
+                            </p>
+                        </div>
+                        <div class="">
+                            <textarea id="deskripsi_6" rows="4" name="deskripsi_6"
+                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Apa bahasa yang digunakan anak sehari-hari?"></textarea>
+                        </div>
+                        <div>
+                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                                Apakah ada masalah khusus saat anak di dalam kandungan dan/atau saat persalinan?
+                            </label>
+                            <div class="flex">
+                                <div class="flex items-center mr-4">
+                                    <input id="Ya" type="radio" value="Ya" name="radio_7"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Ya" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Ya
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="Tidak" type="radio" value="Tidak" name="radio_7"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Tidak"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Tidak
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
+                                pilih salah satu
+                            </p>
+                        </div>
+                        <div class="">
+                            <textarea id="deskripsi_7" rows="4" name="deskripsi_7"
+                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Jika ya, jelaskan singkat"></textarea>
+                        </div>
+                        <div>
+                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                                Apakah ada pengalaman negatif/trauma yang dialami anak saat kecil?
+                            </label>
+                            <div class="flex">
+                                <div class="flex items-center mr-4">
+                                    <input id="Ya" type="radio" value="Ya" name="radio_8"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Ya" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Ya
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="Tidak" type="radio" value="Tidak" name="radio_8"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Tidak"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Tidak
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
+                                pilih salah satu
+                            </p>
+                        </div>
+                        <div class="">
+                            <textarea id="deskripsi_8" rows="4" name="deskripsi_8"
+                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Jika ya, jelaskan singkat"></textarea>
+                        </div>
+                        <div>
+                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                                Apakah anda pernah menjalani sesi hipnoterapi sebelumnya?
+                            </label>
+                            <div class="flex">
+                                <div class="flex items-center mr-4">
+                                    <input id="Ya" type="radio" value="Ya" name="radio_9"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="Ya" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Ya
+                                    </label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="Tidak" type="radio" value="Tidak" name="radio_9"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                                     <label for="Tidak"
                                         class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
@@ -371,150 +887,11 @@
                         </div>
                         <div>
                             <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Apakah Anda yakin masalah/penyakit ini adalah karena keturunan?
+                                Menurut anda, kondisi hipnosis/hipnoterapi adalah…
                             </label>
                             <div class="flex">
                                 <div class="flex items-center mr-4">
-                                    <input id="Ya1" type="radio" value="Ya" name="radio_4"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Ya1" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Ya
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Tidak1" type="radio" value="Tidak" name="radio_4"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Tidak1"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Tidak
-                                    </label>
-                                </div>
-                            </div>
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                pilih salah satu
-                            </p>
-                        </div>
-                        <div>
-                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Apakah pernah ada dokter atau orang yang Anda hormati mengatakan bahwa masalah/penyakit
-                                ini tidak bisa sembuh atau sulit diatasi?
-                            </label>
-                            <div class="flex">
-                                <div class="flex items-center mr-4">
-                                    <input id="Ya2" type="radio" value="Ya" name="radio_5"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Ya2" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Ya
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Tidak3" type="radio" value="Tidak" name="radio_5"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Tidak3"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Tidak
-                                    </label>
-                                </div>
-                            </div>
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                pilih salah satu
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="grid gap-6 mb-6 md:grid-cols-2">
-                        <div>
-                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Sudahkah Anda mencoba menyelesaikan masalah ini sebelumnya?
-                            </label>
-                            <div class="flex flex-col">
-                                <div class="flex items-center mb-3">
-                                    <input id="Hipnoterapi" type="checkbox" value="Hipnoterapi" name="select7"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Hipnoterapi"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Hipnoterapi
-                                    </label>
-                                </div>
-                                <div class="flex items-center mb-3">
-                                    <input id="Psikiater" type="checkbox" value="Psikiater" name="select8"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Psikiater"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Psikiater
-                                    </label>
-                                </div>
-                                <div class="flex items-center mb-3">
-                                    <input id="Konseling" type="checkbox" value="Konseling" name="select9"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Konseling"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Konseling
-                                    </label>
-                                </div>
-                                <div class="flex items-center mb-3">
-                                    <input id="Psikolog" type="checkbox" value="Psikolog" name="select10"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Psikolog"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Psikolog
-                                    </label>
-                                </div>
-                                <div class="flex items-center mb-3">
-                                    <input id="Dokter" type="checkbox" value="Dokter" name="select11"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Dokter"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Dokter
-                                    </label>
-                                </div>
-                                <div class="flex items-center mb-3">
-                                    <input id="Lainya" type="checkbox" value="Lainya" name="select12"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Lainya"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Lainya
-                                    </label>
-                                </div>
-                            </div>
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                pilih semua yang relevan
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_masalah_1"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_masalah_1" rows="8" name="deskripsi_masalah_1"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Jelaskan bagaimana hal itu dilakukan dan hasilnya"></textarea>
-                        </div>
-
-                        <div>
-                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Pernahkah Anda menjalani sesi hipnoterapi sebelumnya?
-                            </label>
-                            <div class="flex">
-                                <div class="flex items-center mr-4">
-                                    <input id="Ya3" type="radio" value="Ya" name="radio_6"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Ya1" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Ya
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Tidak1" type="radio" value="Tidak" name="radio_6"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Tidak3"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Tidak
-                                    </label>
-                                </div>
-                            </div>
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                pilih salah satu
-                            </p>
-                        </div>
-                        <div>
-                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Menurut pemahaman Anda saat ini, kondisi hipnosis itu adalah kondisi
-                            </label>
-                            <div class="flex">
-                                <div class="flex items-center mr-4">
-                                    <input id="Tidur" type="radio" value="Tidur" name="radio_7"
+                                    <input id="Tidur" type="radio" value="Tidur" name="radio_10"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                                     <label for="Tidur"
                                         class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
@@ -522,27 +899,20 @@
                                     </label>
                                 </div>
                                 <div class="flex items-center mr-4">
-                                    <input id="Tidak-Sadar" type="radio" value="Tidak Sadar" name="radio_7"
+                                    <input id="TidakSadar" type="radio" value="Tidak Sadar" name="radio_10"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Tidak-Sadar"
+                                    <label for="TidakSadar"
                                         class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                                         Tidak Sadar
                                     </label>
                                 </div>
                                 <div class="flex items-center mr-4">
-                                    <input id="Rileks-fokus" type="radio" value="Rileks & fokus" name="radio_7"
+                                    <input id="PikiranRileksFokus" type="radio" value="Pikiran rileks dan fokus"
+                                        name="radio_10"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Rileks-fokus"
+                                    <label for="PikiranRileksFokus"
                                         class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Rileks & fokus
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Lainya" type="radio" value="Lainya" name="radio_7"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Lainya"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Lainya
+                                        Pikiran rileks dan fokus
                                     </label>
                                 </div>
                             </div>
@@ -552,20 +922,20 @@
                         </div>
                         <div>
                             <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Apakah ada hal yang Anda takutkan mengenai hipnosis dan / atau hipnoterapi?
+                                Apakah ada hal yang anda takutkan/cemaskan mengenai hipnosis/hipnoterapi?
                             </label>
                             <div class="flex">
                                 <div class="flex items-center mr-4">
-                                    <input id="Ya5" type="radio" value="Ya" name="radio_8"
+                                    <input id="Ya" type="radio" value="Ya" name="radio_11"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Ya5" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                    <label for="Ya" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                                         Ya
                                     </label>
                                 </div>
                                 <div class="flex items-center mr-4">
-                                    <input id="Tidak6" type="radio" value="Tidak" name="radio_8"
+                                    <input id="Tidak" type="radio" value="Tidak" name="radio_11"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Tidak6"
+                                    <label for="Tidak"
                                         class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                                         Tidak
                                     </label>
@@ -575,749 +945,26 @@
                                 pilih salah satu
                             </p>
                         </div>
-                        <div>
-                            <label for="deskripsi_masalah_2"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_masalah_2" rows="5" name="deskripsi_masalah_2"
+                        <div class="">
+                            <textarea id="deskripsi_9" rows="4" name="deskripsi_9"
                                 class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Jika Anda memiliki ketakutan mengenai hipnoterapi, dapatkah Anda jelaskan secara singkat"></textarea>
+                                placeholder="Jika ya, jelaskan singkat"></textarea>
                         </div>
                     </div>
-
-                    <label class="block mb-2 text-sm font-bold text-center text-gray-900 dark:text-white">
-                        Terkait dengan masalah yang ingin Anda selesaikan dalam sesi terapi ini, silakan beri skala
-                        intensitas perasaan Anda dari 0 hingga 10, terhadap diri sendiri, orang lain, atau terhadap
-                        suatu
-                        peristiwa.
-                    </label>
-                    <label class="block mb-8 text-sm font-normal text-center text-gray-900 dark:text-white">
-                        Skala 0 jika Anda merasa biasa saja dan skala 10 jika Anda sangat merasakan emosi ini dan cukup
-                        mengganggu hidup Anda! Kemudian jelaskan secara singkat tentang emosi yang Anda rasakan ini.
-                        Anda
-                        hanya perlu mengisi emosi yang menurut Anda perlu saja.
-                    </label>
-                    <div class="grid gap-6 mb-6 md:grid-cols-2">
-
-                        <!-- Marah -->
-                        <div class="">
-                            <label for="marahRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Marah
-                            </label>
-                            <input id="marahRange" type="range" min="0" max="10" value="0" step="1" name="marah"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="marah"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_marah"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_marah" rows="4" name="deskripsi_marah"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Marah - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End Marah -->
-
-                        <!-- Kecewa -->
-                        <div class="">
-                            <label for="kecewaRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Kecewa
-                            </label>
-                            <input id="kecewaRange" type="range" min="0" max="10" value="0" step="1" name="kecewa"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="kecewa"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_kecewa"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_kecewa" rows="4" name="deskripsi_kecewa"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Kecewa - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End Marah -->
-
-                        <!-- Terluka -->
-                        <div class="">
-                            <label for="terlukaRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Terluka
-                            </label>
-                            <input id="terlukaRange" type="range" min="0" max="10" value="0" step="1" name="terluka"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="terluka"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_terluka"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_terluka" rows="4" name="deskripsi_terluka"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Terluka - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End Terluka -->
-
-                        <!-- Dendam -->
-                        <div class="">
-                            <label for="dendamRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Dendam
-                            </label>
-                            <input id="dendamRange" type="range" min="0" max="10" value="0" step="1" name="dendamRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="dendam"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_dendam"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_dendam" rows="4" name="deskripsi_dendam"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Dendam - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End Dendam -->
-
-                        <!-- SakitHati -->
-                        <div class="">
-                            <label for="SakitHatiRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Sakit Hati
-                            </label>
-                            <input id="SakitHatiRange" type="range" min="0" max="10" value="0" step="1"
-                                name="SakitHatiRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="SakitHati"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_SakitHati"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_SakitHati" rows="4" name="deskripsi_SakitHati"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Sakit Hati - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End SakitHati -->
-
-                        <!-- Tersinggung -->
-                        <div class="">
-                            <label for="tersinggungRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tersinggung
-                            </label>
-                            <input id="tersinggungRange" type="range" min="0" max="10" value="0" step="1"
-                                name="tersinggungRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="tersinggung"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_tersinggung"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_tersinggung" rows="4" name="deskripsi_tersinggung"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Tersinggung - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End Tersinggung -->
-
-                        <!-- Benci -->
-                        <div class="">
-                            <label for="benciRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Benci
-                            </label>
-                            <input id="benciRange" type="range" min="0" max="10" value="0" step="1" name="benciRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="benci"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_benci"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_benci" rows="4" name="deskripsi_benci"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Benci - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End Benci -->
-
-                        <!-- Menyesal -->
-                        <div class="">
-                            <label for="menyesalRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Menyesal
-                            </label>
-                            <input id="menyesalRange" type="range" min="0" max="10" value="0" step="1"
-                                name="menyesalRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="menyesal"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_menyesal"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_menyesal" rows="4" name="deskripsi_menyesal"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Menyesal - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End Menyesal -->
-
-                        <!-- Frustasi -->
-                        <div class="">
-                            <label for="frustasiRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Frustasi
-                            </label>
-                            <input id="frustasiRange" type="range" min="0" max="10" value="0" step="1"
-                                name="frustasiRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="frustasi"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_frustasi"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_frustasi" rows="4" name="deskripsi_frustasi"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Frustasi - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End Frustasi -->
-
-                        <!-- Takut -->
-                        <div class="">
-                            <label for="takutRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Takut
-                            </label>
-                            <input id="takutRange" type="range" min="0" max="10" value="0" step="1" name="takutRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="takut"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_takut"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_takut" rows="4" name="deskripsi_takut"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Takut - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End Takut -->
-
-                        <!-- Cemas -->
-                        <div class="">
-                            <label for="cemasRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Cemas
-                            </label>
-                            <input id="cemasRange" type="range" min="0" max="10" value="0" step="1" name="cemasRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="cemas"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_cemas"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_cemas" rows="4" name="deskripsi_cemas"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Cemas - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End Cemas -->
-
-                        <!-- Malu -->
-                        <div class="">
-                            <label for="maluRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Malu
-                            </label>
-                            <input id="maluRange" type="range" min="0" max="10" value="0" step="1" name="maluRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="malu"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_malu"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_malu" rows="4" name="deskripsi_malu"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Malu - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End Malu -->
-
-                        <!-- Kesepian -->
-                        <div class="">
-                            <label for="kesepianRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Kesepian
-                            </label>
-                            <input id="kesepianRange" type="range" min="0" max="10" value="0" step="1"
-                                name="kesepianRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="kesepian"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_kesepian"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_kesepian" rows="4" name="deskripsi_kesepian"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Kesepian - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End Kesepian -->
-
-                        <!-- Sedih -->
-                        <div class="">
-                            <label for="sedihRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Sedih
-                            </label>
-                            <input id="sedihRange" type="range" min="0" max="10" value="0" step="1" name="sedihRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="sedih"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_sedih"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_sedih" rows="4" name="deskripsi_sedih"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Sedih - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End Sedih -->
-
-                        <!-- MerasaTidakMampu -->
-                        <div class="">
-                            <label for="MerasaTidakMampuRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Merasa Tidak Mampu
-                            </label>
-                            <input id="MerasaTidakMampuRange" type="range" min="0" max="10" value="0" step="1"
-                                name="MerasaTidakMampuRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="MerasaTidakMampu"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_MerasaTidakMampu"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_MerasaTidakMampu" rows="4" name="deskripsi_MerasaTidakMampu"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Merasa Tidak Mampu - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End MerasaTidakMampu -->
-
-                        <!-- MerasaPutusAsa -->
-                        <div class="">
-                            <label for="MerasaPutusAsaRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Merasa Putus Asa
-                            </label>
-                            <input id="MerasaPutusAsaRange" type="range" min="0" max="10" value="0" step="1"
-                                name="MerasaPutusAsaRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="MerasaPutusAsa"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_MerasaPutusAsa"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_MerasaPutusAsa" rows="4" name="deskripsi_MerasaPutusAsa"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Merasa Putus Asa - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End MerasaPutusAsa -->
-
-                        <!-- MerasaTidakBerharga -->
-                        <div class="">
-                            <label for="MerasaTidakBerhargaRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Merasa Tidak
-                                Berharga
-                            </label>
-                            <input id="MerasaTidakBerhargaRange" type="range" min="0" max="10" value="0" step="1"
-                                name="MerasaTidakBerhargaRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="MerasaTidakBerharga"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_MerasaTidakBerharga"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_MerasaTidakBerharga" rows="4" name="deskripsi_MerasaTidakBerharga"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Merasa Tidak Berharga - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End MerasaTidakBerharga -->
-
-                        <!-- MerasaKecil -->
-                        <div class="">
-                            <label for="MerasaKecilRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Merasa Kecil
-                            </label>
-                            <input id="MerasaKecilRange" type="range" min="0" max="10" value="0" step="1"
-                                name="MerasaKecilRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="MerasaKecil"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_MerasaKecil"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_MerasaKecil" rows="4" name="deskripsi_MerasaKecil"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Merasa Kecil - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End MerasaKecil -->
-
-                        <!-- MerasaTidakDiinginkan -->
-                        <div class="">
-                            <label for="MerasaTidakDiinginkanRange"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Merasa Tidak
-                                Diinginkan
-                            </label>
-                            <input id="MerasaTidakDiinginkanRange" type="range" min="0" max="10" value="0" step="1"
-                                name="MerasaTidakDiinginkanRange"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                <span class="font-bold">( Nilai <span id="MerasaTidakDiinginkan"></span> )</span> |
-                                0 - 10 ; 0 bila biasa saja, 10 bila sangat terasa dan mengganggu
-                            </p>
-                        </div>
-                        <div>
-                            <label for="deskripsi_MerasaTidakDiinginkan"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deskripsi</label>
-                            <textarea id="deskripsi_MerasaTidakDiinginkan" rows="4"
-                                name="deskripsi_MerasaTidakDiinginkan"
-                                class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Merasa Tidak Diinginkan - Jelaskan dengan singkat "></textarea>
-                        </div>
-                        <!-- End MerasaTidakDiinginkan -->
-
-                        <div>
-                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Apakah Anda pernah dalam perawatan dokter karena sakit di tahun-tahun sebelumnya?
-                            </label>
-                            <div class="flex">
-                                <div class="flex items-center mr-4">
-                                    <input id="Ya6" type="radio" value="Ya" name="radio_9"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Ya6" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Ya
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Tidak7" type="radio" value="Tidak" name="radio_9"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Tidak7"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Tidak
-                                    </label>
-                                </div>
-                            </div>
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                pilih salah satu
-                            </p>
-                        </div>
-
-                        <div>
-                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Apakah Anda saat ini minum obat terkait masalah/penyakit ini?
-                            </label>
-                            <div class="flex">
-                                <div class="flex items-center mr-4">
-                                    <input id="Ya8" type="radio" value="Ya" name="radio_10"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Ya8" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Ya
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Tidak9" type="radio" value="Tidak" name="radio_10"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Tidak9"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Tidak
-                                    </label>
-                                </div>
-                            </div>
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                pilih salah satu
-                            </p>
-                        </div>
-                        <div>
-                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Apakah Anda mengalami / sakit?
-                            </label>
-                            <div class="grid gap-3 mb-6 md:grid-cols-2">
-                                <div class="flex items-center mr-4">
-                                    <input id="Jantung" type="checkbox" value="Jantung" name="select13"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Jantung"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Jantung
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Stroke" type="checkbox" value="Stroke" name="select14"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Stroke"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Stroke
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Hipertensi" type="checkbox" value="Hipertensi" name="select15"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Hipertensi"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Hipertensi
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Kehamilan" type="checkbox" value="Kehamilan" name="select16"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Kehamilan"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Kehamilan
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Cerebral-Palsy" type="checkbox" value="Cerebral-Palsy" name="select17"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Cerebral-Palsy"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Cerebral Palsy
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Diabetes" type="checkbox" value="Diabetes" name="select18"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Diabetes"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Diabetes
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Epilepsi" type="checkbox" value="Epilepsi" name="select19"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Epilepsi"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Epilepsi
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Hipotensi" type="checkbox" value="Hipotensi" name="select20"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Hipotensi"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Hipotensi
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Asma" type="checkbox" value="Asma" name="select21"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Asma"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Asma
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Tidak Ada" type="checkbox" value="Tidak Ada" name="select22"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Tidak Ada"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Tidak Ada
-                                    </label>
-                                </div>
-                            </div>
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                pilih semua yang relevan
-                            </p>
-                        </div>
-                        <div>
-                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                Apakah Anda saat ini minum obat terkait masalah/penyakit ini?
-                            </label>
-                            <div class="flex">
-                                <div class="flex items-center mr-4">
-                                    <input id="Ya10" type="radio" value="Ya" name="radio_11"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Ya10" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Ya
-                                    </label>
-                                </div>
-                                <div class="flex items-center mr-4">
-                                    <input id="Tidak11" type="radio" value="Tidak" name="radio_11"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                    <label for="Tidak11"
-                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                        Tidak
-                                    </label>
-                                </div>
-                            </div>
-                            <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                                pilih salah satu
-                            </p>
-                        </div>
-
-                    </div>
-                    <div>
-                        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                            Berilah tanda pada masalah-masalah fisik berikut yang sering Anda alami
-                        </label>
-                        <div class="grid gap-3 mb-6 md:grid-cols-2">
-                            <div class="flex items-center mr-4">
-                                <input id="Sinus" type="checkbox" value="Sinus" name="select23"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="Sinus"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sinus
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="LeherBelakangKaku" type="checkbox" value="Leher Belakang Kaku"
-                                    name="select24"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="LeherBelakangKaku"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Leher Belakang
-                                    Kaku
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="PundakKaku" type="checkbox" value="Pundak Kaku" name="select25"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="PundakKaku"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Pundak Kaku
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="PunggungPinggangkaku" type="checkbox" value="Punggung bawah / pinggang kaku"
-                                    name="select25"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="PunggungPinggangkaku"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Punggung bawah / pinggang kaku
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="Kram" type="checkbox" value="Kram" name="select26"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="Kram" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Kram
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="Sembelit" type="checkbox" value="Sembelit" name="select27"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="Sembelit" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Sembelit
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="TanganDingin" type="checkbox" value="Tangan Dingin" name="select28"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="TanganDingin"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Tangan Dingin
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="KakiKaku" type="checkbox" value="Kaki Kaku" name="select29"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="KakiKaku" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Kaki Kaku
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="SakitKepalaSebelah" type="checkbox" value="Sakit kepala sebelah"
-                                    name="select30"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="SakitKepalaSebelah"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Sakit kepala sebelah
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="SariawanGusiLuka" type="checkbox" value="Sariawan / gusi luka"
-                                    name="select31"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="SariawanGusiLuka"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Sariawan / gusi luka
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="PunggungAtasKaku" type="checkbox" value="Punggung atas kaku" name="select32"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="PunggungAtasKaku"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Punggung atas kaku
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="KramSaatMenstruasi" type="checkbox" value="Kram saat menstruasi"
-                                    name="select33"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="KramSaatMenstruasi"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Kram saat menstruasi
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="KakuPadaTanganPersendian" type="checkbox" value="Kaku pada tangan/persendian"
-                                    name="select34"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="KakuPadaTanganPersendian"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Kaku pada tangan/persendian
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="AsamLambungBerlebih" type="checkbox" value="Asam lambung berlebih"
-                                    name="select35"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="AsamLambungBerlebih"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Asam lambung berlebih
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="KakiDingin" type="checkbox" value="Kaki dingin" name="select36"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="KakiDingin"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Kaki dingin
-                                </label>
-                            </div>
-                            <div class="flex items-center mr-4">
-                                <input id="KakiBengkak" type="checkbox" value="Kaki Bengkak" name="select37"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="KakiBengkak"
-                                    class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Kaki Bengkak
-                                </label>
-                            </div>
-
-                        </div>
-                        <p class="text-xs font-normal text-gray-500 dark:text-gray-300 mt-2">
-                            pilih semua yang relevan
-                        </p>
-                    </div>
-
-                    <div class="grid gap-4 mb-6 md:grid-cols-2 mt-5">
-                        <textarea id="deskripsi_MerasaTidakDiinginkan" rows="8" name="deskripsi_1"
+                    <div class="">
+                        <textarea id="deskripsi_10" rows="4" name="deskripsi_10"
                             class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                            placeholder="Bagaimana Anda tahu bahwa Anda sudah berhasil mengatasi masalah Anda? Sebutkan beberapa contoh"></textarea>
-                        <textarea id="deskripsi_MerasaTidakDiinginkan" rows="8" name="deskripsi_2"
+                            placeholder="Apakah yang anda harapkan dari anak anda setelah menjalani hipnoterapi ini?"></textarea>
+                    </div>
+                    <div class="">
+                        <textarea id="deskripsi_11" rows="4" name="deskripsi_11"
                             class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                            placeholder="Perubahan positif apa yang pasti terjadi dalam hidup Anda bila Anda berhasil mengatasi masalah Anda?"></textarea>
+                            placeholder="Menurut anda, keuntungan apa yang akan anda dapatkan jika anda bebas dari masalah ini?"></textarea>
+                    </div>
+                    <div class="">
+                        <textarea id="deskripsi_12" rows="4" name="deskripsi_12"
+                            class="block p-2.5 w-full mb-4 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Sikap atau pemikiran apa sebagai orangtua yang kiranya bisa menjadi penghambat perubahan yang anda harapkan?"></textarea>
                     </div>
 
                     <!-- Helper Text -->
